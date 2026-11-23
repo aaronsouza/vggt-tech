@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Input / intermediate data
+bg/
+bg_out/
+room/
+room_out/
+vggt_frames/
+
+# Generated outputs (large)
+*.npz
+*.ply
+
+# Scratch
+temp.py
+
+# Editor / OS
+.vscode/
+.DS_Store
